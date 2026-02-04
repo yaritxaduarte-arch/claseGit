@@ -19,4 +19,16 @@ public class CuentaBancaria {
     public void setSaldo(int saldo) {
         this.saldo = saldo;
     }
-}
+    public void consignar(int valorAConsignar){
+        if ( valorAConsignar <= 0)throw new IllegalArgumentException("El valor no es valido");
+        this.saldo+=valorAConsignar;
+    }
+    public void retirar (int valorARetirar){
+        if (valorARetirar <= 0)throw new IllegalArgumentException("no se puede numero negativo");
+
+        else if (valorARetirar > saldo )throw new IllegalArgumentException("te falta dinero");
+        this.saldo-=valorARetirar;
+    }
+
+
+    }
