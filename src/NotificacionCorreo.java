@@ -3,7 +3,7 @@ public class NotificacionCorreo extends Notificacion{
         super(receptorNotificaciones);
     }
     public void enviarMensaje(String mensaje){
-        System.out.println("Se envio el mensaje \"" + mensaje +"\" por correo" + "a: " + receptorNotificacion);
+        System.out.println("Se envio el mensaje \"" + mensaje +"\" por correo " + "a: " + receptorNotificacion);
 
     }
 }
