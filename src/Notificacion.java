@@ -8,5 +8,6 @@ public abstract class Notificacion {
         }
         this.receptorNotificacion = receptorNotificacion;
     }
-    public abstract void enviarMensaje(String mensaje);
+    public abstract void enviarMensaje (String mensaje);
+
 }
