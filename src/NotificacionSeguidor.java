@@ -1,8 +1,8 @@
 public class NotificacionSeguidor extends Notificacion {
-    protected NotificacionSeguidor (String notificacionnn){
-        super(notificacionnn);
+    protected NotificacionSeguidor (String receptorNotificaciones){
+        super(receptorNotificaciones);
     }
     public void enviarMensaje(String mensaje){
-        System.out.println( mensaje + "comenzo a seguirte ");
+        System.out.println( "comenzo a seguirte \" " +mensaje + " a :" + receptorNotificacion );
     }
 }

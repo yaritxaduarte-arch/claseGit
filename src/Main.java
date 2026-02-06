@@ -13,6 +13,7 @@ public class Main {
 
         notificaciones[0].enviarMensaje("no entiendo que estoy haciendo");
         notificaciones[1].enviarMensaje("no entiendo que estoy haciendo");
+        notificaciones[2].enviarMensaje("seguidor");
 
     }
 }
